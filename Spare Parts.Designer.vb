@@ -191,6 +191,7 @@ Partial Class Spare_Parts
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Spare_Parts"
         Me.Text = "Spare Parts"
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()

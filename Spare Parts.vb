@@ -4,4 +4,8 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub Spare_Parts_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

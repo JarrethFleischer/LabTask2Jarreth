@@ -268,6 +268,7 @@ Partial Class Register
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Register"
         Me.Text = "Register"
         Me.Panel1.ResumeLayout(False)
